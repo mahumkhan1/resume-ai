@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "popup-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", ".", "--port", "3000", "--no-clipboard"],
+      "port": 3000
+    },
+    {
+      "name": "mock-api",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["mock-server.js"],
+      "port": 3002,
+      "autoPort": false
+    }
+  ]
+}
